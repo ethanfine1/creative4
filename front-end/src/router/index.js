@@ -5,7 +5,6 @@ import Toread from '../views/Toread.vue'
 import Admin from '../views/Admin.vue'
 import Myadmin from '../views/Myadmin.vue'
 import EditToReads from '../views/EditToReads.vue'
-import Christmas from '../views/Christmas.vue'
 
 Vue.use(VueRouter)
 
@@ -35,11 +34,6 @@ const routes = [
     name: 'EditToReads',
     component: EditToReads
   },
-  {
-    path: '/christmas',
-    name: 'Christmas',
-    componenet: Christmas
-  }
 ]
 
 const router = new VueRouter({
